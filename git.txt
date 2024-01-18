@@ -1,0 +1,8 @@
+git remote -v
+git remote add origin [branch_name]
+git push -set-upstream origin [branch_name]
+git branch [branch_name_to_create]
+git checkout -b [branch_name_to_create]
+git branch
+git checkout [branch_name]
+git branch -d [branch_name]
