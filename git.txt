@@ -6,3 +6,6 @@ git checkout -b [branch_name_to_create]
 git branch
 git checkout [branch_name]
 git branch -d [branch_name]
+git diff //uncommit changes
+git diff --staged //staged changes
+git diff [branch_name_1] [branch_name_2]
