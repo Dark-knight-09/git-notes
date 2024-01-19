@@ -9,3 +9,4 @@ git branch -d [branch_name]
 git diff //uncommit changes
 git diff --staged //staged changes
 git diff [branch_name_1] [branch_name_2]
+learn git
