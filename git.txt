@@ -9,3 +9,12 @@ git branch -d [branch_name]
 git diff //uncommit changes
 git diff --staged //staged changes
 git diff [branch_name_1] [branch_name_2]
+
+understand this topics
+git reset 
+git pull
+git fetch
+git merge 
+git rebase 
+git stash
+git conflict solve 
