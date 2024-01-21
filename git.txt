@@ -1,0 +1,24 @@
+git remote -v
+git remote add origin [branch_name]
+git push -set-upstream origin [branch_name]
+git branch [branch_name_to_create]
+git checkout -b [branch_name_to_create]
+git branch
+git checkout [branch_name]
+git branch -d [branch_name]
+git diff //uncommit changes
+git diff --staged //staged changes
+git diff [branch_name_1] [branch_name_2]
+git rm [file_name]
+git rm -r --cached [folder_name]
+
+understand this topics
+git reset 
+git revert
+git pull
+git fetch
+git merge 
+git rebase 
+git stash
+git squash
+git conflict solve 
