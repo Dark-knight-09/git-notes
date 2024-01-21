@@ -12,9 +12,11 @@ git diff [branch_name_1] [branch_name_2]
 
 understand this topics
 git reset 
+git revert
 git pull
 git fetch
 git merge 
 git rebase 
 git stash
+git squash
 git conflict solve 
