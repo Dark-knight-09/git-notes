@@ -13,12 +13,14 @@ git rm [file_name]
 git rm -r --cached [folder_name]
 
 understand this topics
-git reset 
-git revert
-git pull
+git reset -
+git revert -
+git pull 
 git fetch
-git merge 
+git merge -
 git rebase 
 git stash
 git squash
 git conflict solve 
+
+learn fast-forward merge and 3-way merge
