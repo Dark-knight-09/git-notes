@@ -16,11 +16,11 @@ git revert commit_id
 git log --oneline
 git log --oneline --graph
 git merge branch_name
+git pull
+git fetch
+git log origin/main --oneline
 
 understand this topics
-
-git pull 
-git fetch
 
 git rebase 
 git stash
