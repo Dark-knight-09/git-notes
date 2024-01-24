@@ -19,12 +19,16 @@ git merge branch_name
 git pull
 git fetch
 git log origin/main --oneline
+git stash         //(stashes the stages changes to a stack)
+git stash list    //(shows the list of stashed changes)
+git stash show    //(shows the stashed changes)
+git stash pop     //(pops the stashed changes)
+git conflict solve 
+Fast-forward merge  //when there is no changes in the main branch
+and 3-way merge  //when commits are done in both the branches
 
 understand this topics
 
 git rebase 
-git stash
 git squash
-git conflict solve 
 
-learn fast-forward merge and 3-way merge
