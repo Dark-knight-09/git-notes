@@ -33,9 +33,6 @@ Fast-forward merge  //when there is no changes in the main branch
 git rebase -i HEAD~3
 git rebase --abort
 git merge --squash branch_name
-
-understand this topics
- 
-git squash
+git cherry-pick commit_id
 
 
