@@ -16,17 +16,23 @@ git revert commit_id
 git log --oneline
 git log --oneline --graph
 git merge branch_name
-
-
-understand this topics
-
-git pull 
+git pull
 git fetch
-
-git rebase 
-git stash
-git squash
-git conflict solve 
-
+git log origin/main --oneline
+git log --merge --oneline
+git rebase branch_name
 learn fast-forward merge and 3-way merge
+git conflict solve 
+git stash         //(stashes the stages changes to a stack)
+git stash list    //(shows the list of stashed changes)
+git stash show    //(shows the stashed changes)
+git stash pop     //(pops the stashed changes)
+git conflict solve 
+Fast-forward merge  //when there is no changes in the main branch
+3-way merge  //when commits are done in both the branches
+git rebase -i HEAD~3
+git rebase --abort
+git merge --squash branch_name
+git cherry-pick commit_id
+
 
