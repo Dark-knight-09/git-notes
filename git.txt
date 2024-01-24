@@ -11,14 +11,20 @@ git diff --staged //staged changes
 git diff [branch_name_1] [branch_name_2]
 git rm [file_name]
 git rm -r --cached [folder_name]
+git reset comit_id
+git revert commit_id
+git log --oneline
+git log --oneline --graph
+git merge branch_name
 
 understand this topics
-git reset 
-git revert
-git pull
+
+git pull 
 git fetch
-git merge 
+
 git rebase 
 git stash
 git squash
 git conflict solve 
+
+learn fast-forward merge and 3-way merge
