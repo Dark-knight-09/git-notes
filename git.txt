@@ -13,7 +13,8 @@ git rm [file_name]
 git rm -r --cached [folder_name]
 git reset comit_id
 git reset --hard commit_id
-git revert commit_id
+git revert commit_id 
+git reset --soft commit_id
 git log --oneline
 git log --oneline --graph
 git merge branch_name
